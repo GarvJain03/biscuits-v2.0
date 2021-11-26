@@ -31,7 +31,8 @@
       "@adonisjs/session",
       "@adonisjs/view",
       "@adonisjs/shield",
-      "@eidellev/inertia-adonisjs"
+      "@eidellev/inertia-adonisjs",
+      "@adonisjs/lucid"
     ]
   }
 }
