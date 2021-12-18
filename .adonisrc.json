@@ -30,7 +30,8 @@
     "@adonisjs/view",
     "@adonisjs/shield",
     "@eidellev/inertia-adonisjs",
-    "@adonisjs/lucid"
+    "@adonisjs/lucid",
+    "@adonisjs/auth"
   ],
   "metaFiles": [
     {

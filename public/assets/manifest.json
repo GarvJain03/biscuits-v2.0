@@ -1,4 +1,14 @@
 {
   "assets/app.css": "http://localhost:8080/assets/app.css",
-  "assets/app.js": "http://localhost:8080/assets/app.js"
+  "assets/app.js": "http://localhost:8080/assets/app.js",
+  "assets/resources_js_pages_index_tsx.js": "http://localhost:8080/assets/resources_js_pages_index_tsx.js",
+  "assets/resources_js_pages_about_tsx.js": "http://localhost:8080/assets/resources_js_pages_about_tsx.js",
+  "assets/resources_js_pages_admin_index_tsx.js": "http://localhost:8080/assets/resources_js_pages_admin_index_tsx.js",
+  "assets/resources_js_pages_auth_login_tsx.js": "http://localhost:8080/assets/resources_js_pages_auth_login_tsx.js",
+  "assets/resources_js_pages_auth_register_tsx.js": "http://localhost:8080/assets/resources_js_pages_auth_register_tsx.js",
+  "assets/resources_js_pages_dashboard_tsx.js": "http://localhost:8080/assets/resources_js_pages_dashboard_tsx.js",
+  "assets/resources_js_pages_lib_hooks_use-title_tsx.js": "http://localhost:8080/assets/resources_js_pages_lib_hooks_use-title_tsx.js",
+  "assets/resources_js_pages_lib_types_tsx.js": "http://localhost:8080/assets/resources_js_pages_lib_types_tsx.js",
+  "assets/resources_js_pages_rules_tsx.js": "http://localhost:8080/assets/resources_js_pages_rules_tsx.js",
+  "assets/resources_js_components_Layout_tsx.js": "http://localhost:8080/assets/resources_js_components_Layout_tsx.js"
 }
