@@ -45,7 +45,7 @@ Encore.setPublicPath('/assets')
 | entrypoints.
 |
 */
-Encore.addEntry('app', './resources/js/app.tsx')
+Encore.addEntry('app', './resources/js/app.js')
 Encore.enableTypeScriptLoader()
 Encore.enableReactPreset()
 Encore.enablePostCssLoader()
