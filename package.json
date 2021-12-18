@@ -30,6 +30,7 @@
     "youch-terminal": "^1.1.1"
   },
   "dependencies": {
+    "@adonisjs/auth": "^8.0.10",
     "@adonisjs/core": "^5.4.1",
     "@adonisjs/lucid": "^16.3.2",
     "@adonisjs/repl": "^3.1.7",
@@ -39,10 +40,12 @@
     "@eidellev/inertia-adonisjs": "^5.0.0",
     "@inertiajs/inertia": "^0.10.1",
     "@inertiajs/inertia-react": "^0.7.1",
+    "@inertiajs/progress": "^0.2.6",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
     "luxon": "^2.1.1",
     "mysql": "^2.18.1",
+    "phc-argon2": "^1.1.2",
     "proxy-addr": "^2.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
