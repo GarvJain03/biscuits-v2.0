@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import React from 'react'
-import Layout from '../../components/Layout'
+import Layout from '../../components/Layouts/Layout'
 import { Link } from '@inertiajs/inertia-react'
 import { Inertia } from '@inertiajs/inertia'
-import useTitle from '../lib/hooks/use-title'
+import useTitle from '../../lib/hooks/use-title'
 
 interface ILoginProps {
   error?: string

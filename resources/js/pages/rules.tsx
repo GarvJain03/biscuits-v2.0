@@ -1,11 +1,13 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Authenticated from '../components/Layouts/Authenticated'
+import useTitle from '../lib/hooks/use-title'
 
 const Rules = () => {
+  useTitle('Rules')
   return (
-    <Layout>
+    <Authenticated>
       <h1>Rules</h1>
-    </Layout>
+    </Authenticated>
   )
 }
 

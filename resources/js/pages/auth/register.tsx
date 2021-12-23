@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import React, { useState } from 'react'
-import Layout from '../../components/Layout'
-import useTitle from '../lib/hooks/use-title'
+import Layout from '../../components/Layouts/Layout'
+import useTitle from '../../lib/hooks/use-title'
 import { Link } from '@inertiajs/inertia-react'
 import { Inertia } from '@inertiajs/inertia'
 

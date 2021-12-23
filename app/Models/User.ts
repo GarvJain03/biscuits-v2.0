@@ -1,6 +1,7 @@
 import { DateTime } from 'luxon'
 import Hash from '@ioc:Adonis/Core/Hash'
-import { column, beforeSave, BaseModel } from '@ioc:Adonis/Lucid/Orm'
+import { column, beforeSave, BaseModel, hasOne, HasOne } from '@ioc:Adonis/Lucid/Orm'
+import Response from 'App/Models/Response'
 
 export default class User extends BaseModel {
   @column({ isPrimary: true })
@@ -34,7 +35,15 @@ export default class User extends BaseModel {
   public category: string
 
   @column()
+  public question_on: number
+
+  @column()
   public is_admin: boolean
+
+  @hasOne(() => Response, {
+    foreignKey: 'user_id',
+  })
+  public responses: HasOne<typeof Response>
 
   @column()
   public rememberMeToken?: string

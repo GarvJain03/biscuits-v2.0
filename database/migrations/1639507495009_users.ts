@@ -23,6 +23,8 @@ export default class UsersSchema extends BaseSchema {
       table.string('category', 255).notNullable()
 
       table.boolean('is_admin').notNullable().defaultTo(false)
+
+      table.integer('question_on').notNullable().defaultTo(1).unsigned()
       table.string('remember_me_token').nullable()
 
       /**

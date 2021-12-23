@@ -17,7 +17,9 @@ export interface IUser {
 }
 
 export interface IPageProps extends Page<PageProps> {
-  errors: Errors & ErrorBag
-  authenticated: boolean
-  user: IUser
+  props: {
+    errors: Errors & ErrorBag
+    authenticated: boolean
+    user: IUser
+  }
 }

@@ -1,22 +1,15 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import React from 'react'
 import { Link } from '@inertiajs/inertia-react'
 
-const Header = () => {
-  const links: any = [
-    {
-      name: 'Home',
-      url: '/',
-    },
-    {
-      name: 'About',
-      url: '/about',
-    },
-    {
-      name: 'Rules',
-      url: '/rules',
-    },
-  ]
+interface IHeaderProps {
+  links: {
+    name: string
+    url: string
+  }[]
+}
 
+const Header: React.FC<IHeaderProps> = ({ links }: IHeaderProps) => {
   return (
     <header className="text-heading-green bg-dark-bg body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">

@@ -20,7 +20,7 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/', 'IndicesController.index')
+Route.get('/', 'IndexController.index')
 
 Route.group(() => {
   Route.get('/login', 'AuthController.getLogin')
@@ -31,12 +31,12 @@ Route.group(() => {
   .middleware('guest')
   .prefix('/auth')
 
-Route.get('/auth/logout', 'AuthController.logout')
+Route.get('/auth/logout', 'AuthController.logout').middleware('auth')
 
 Route.get('/dashboard', 'DashboardController.getDashboard').middleware('auth')
 
-Route.get('/about', 'IndicesController.about')
-Route.get('/rules', 'IndicesController.rules')
+Route.get('/about', 'IndexController.about').middleware('guest')
+Route.get('/rules', 'IndexController.rules').middleware('auth')
 
 Route.group(() => {
   Route.get('/', 'AdminController.index')
@@ -44,3 +44,5 @@ Route.group(() => {
   .prefix('/admin')
   .middleware('auth')
   .middleware('admin')
+
+Route.post('/response', 'ResponsesController.record_response').middleware('auth')
