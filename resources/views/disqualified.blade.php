@@ -1,0 +1,1 @@
+<h1>You have been disqualified from the event.</h1>
