@@ -26,7 +26,7 @@ class UserSeeder extends Seeder
             'category' => 'school',
             'is_admin' => true,
             'question_on' => 1,
-            'password' => Hash::make('cool_admin_pass_no_crack'),
+            'password' => Hash::make('adminadmin'),
             'created_at' => now(),
             'updated_at' => now()
         ]);
