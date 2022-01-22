@@ -26,6 +26,12 @@ cp .env.example .env
 
 `DISCORD_WEBHOOK_URL`
 
+### Run migrations and seed database
+
+```bash
+php artisan migrate:fresh --seed
+```
+
 ### Run App
 
 ```bash
