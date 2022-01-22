@@ -1,6 +1,6 @@
 # Biscuits v2.0
 
-Using the Laravel web framework written in PHP.
+Using the Laravel web framework written in PHP. The frontend is written using the blade templating engine and tailwindcss.
 
 ## Setup
 
