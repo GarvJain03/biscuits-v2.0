@@ -47,4 +47,4 @@ php artisan serve
 
 ### Middleware
 
-You can use the `guest` and the `admin` middleware which are set in `app/Http/Middleware`.
+`guest` and `admin` middleware for authorization. They can be found in `app/Http/Middleware`.
